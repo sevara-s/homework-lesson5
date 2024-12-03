@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- header started -->
+    <header class="header p-[20px]">
+      <div class="container flex items-center justify-between">
+        <label for="check1"><img src="./imgs/header_icon.png" alt="" /></label>
+        
+
+
+        <input type="checkbox" id="check1" class="hidden">
+        <div class="header_links flex items-center gap-[40px]">
+          <p>
+            <a class="font-[400] text-[18px] text-text_color_second" href="#"
+              >Услуги</a
+            >
+          </p>
+          <p>
+            <a class="font-[400] text-[18px] text-text_color_second" href="#"
+              >Доставка</a
+            >
+          </p>
+          <p>
+            <a class="font-[400] text-[18px] text-text_color_second" href="#"
+              >Оплата</a
+            >
+          </p>
+          <p>
+            <a class="font-[400] text-[18px] text-text_color_second" href="#"
+              >Проекты</a
+            >
+          </p>
+        </div>
+
+        <div class="header_icons flex items-center gap-[40px] max-[710px]:hidden">
+          <img src="./svgs/star.svg" alt="" />
+          <img src="./svgs/cart.svg" alt="" />
+          <div class="phone_num">
+            <p>
+              <a
+                class="text-[400] text-[24px] text-text_color_main"
+                href="tel:8 (843) 203-93-43"
+                >8 (843) 203-93-43</a
+              >
+            </p>
+            <p>
+              <a
+                class="text-[400] text-[16px] text-color_main underline"
+                href="#"
+                >заказать обратный звонок</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header ended -->
+
+    <!-- showcase started -->
+    <section class="showcase mt-[50px]">
+      <div class="container flex gap-[40px]">
+        <!-- catalog started -->
+        <div class="catalog">
+          <div
+            class="catalog_top flex items-center gap-[20px] rounded-[4px] bg-color_main py-[9px] pr-[160px] pl-[60px]"
+          >
+            <img src="./svgs/catalog.svg" alt="" />
+            <p class="font-[400] text-[18px] text-text_color_white">Каталог</p>
+          </div>
+          <div
+            class="catalog_bottom py-[20px] px-[10px] flex flex-col gap-[15px] bg-text_color_white rounded-[4px]"
+          >
+            <div class="l1 flex items-center justify-between">
+              <p
+                class="font-[400] text-[16px] text-text_color_main hover:text-text_color_red"
+              >
+                Стеновые материалы
+              </p>
+              <img src="./svgs/opening_icon.svg" alt="" />
+            </div>
+
+            <div class="l1 flex items-center justify-between">
+              <p
+                class="font-[400] text-[16px] text-text_color_main hover:text-text_color_red"
+              >
+                Фасадные материалы
+              </p>
+              <img src="./svgs/opening_icon.svg" alt="" />
+            </div>
+
+            <div class="l1 flex items-center justify-between">
+              <p
+                class="font-[400] text-[16px] text-text_color_main hover:text-text_color_red"
+              >
+                Строительные блоки
+              </p>
+              <img src="./svgs/opening_icon.svg" alt="" />
+            </div>
+
+            <div class="l1 flex items-center justify-between">
+              <p
+                class="font-[400] text-[16px] text-text_color_main hover:text-text_color_red"
+              >
+                Отделочные материалы
+              </p>
+              <img src="./svgs/opening_icon.svg" alt="" />
+            </div>
+
+            <div class="l1 flex items-center justify-between">
+              <p
+                class="font-[400] text-[16px] text-text_color_main hover:text-text_color_red"
+              >
+                Отделочные материалы
+              </p>
+              <img src="./svgs/opening_icon.svg" alt="" />
+            </div>
+
+            <div class="l1 flex items-center justify-between">
+              <p
+                class="font-[400] text-[16px] text-text_color_main hover:text-text_color_red"
+              >
+                Благоустройство
+              </p>
+              <img src="./svgs/opening_icon.svg" alt="" />
+            </div>
+
+            <div class="l1 flex items-center justify-between">
+              <p
+                class="font-[400] text-[16px] text-text_color_main hover:text-text_color_red"
+              >
+                Лако-красочные материалы
+              </p>
+              <img src="./svgs/opening_icon.svg" alt="" />
+            </div>
+
+            <div class="l1 flex items-center justify-between">
+              <p
+                class="font-[400] text-[16px] text-text_color_main hover:text-text_color_red"
+              >
+                Прочие услуги
+              </p>
+              <img src="./svgs/opening_icon.svg" alt="" />
+            </div>
+
+            <div class="l1 flex items-center justify-between">
+              <p
+                class="font-[400] text-[16px] text-text_color_main hover:text-text_color_red"
+              >
+                Распродажа товаров
+              </p>
+              <img src="./svgs/opening_icon.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- catalog ended -->
+
+        <!-- showcase_right started -->
+        <div class="showcase_right">
+          <!-- top_links part started -->
+          <div class="top_part flex items-center gap-[50px]">
+            <h1 class="font-[500] text-[18px] text-text_color_red">Акции</h1>
+            <div class="search flex items-center justify-around max-[1450px]:hidden">
+              <input
+                class="outline-none text-text_color_gray"
+                type="search"
+                placeholder="Введите название товара"
+              />
+              <img src="./svgs/searh.svg" alt="" />
+            </div>
+            <div class="two_links flex items-center gap-[40px] max-[1450px]:hidden">
+              <p>
+                <a
+                  class="font-[500] text-[18px] text-text_color_second"
+                  href="#"
+                  >о компании</a
+                >
+              </p>
+              <p>
+                <a
+                  class="font-[500] text-[18px] text-text_color_second"
+                  href="#"
+                  >КОнтакты</a
+                >
+              </p>
+            </div>
+            <button class="btn1">Оптовый заказ</button>
+          </div>
+          <!-- top links part ended -->
+
+          <!-- bottom _part started -->
+          <div class="bottom_part mt-[30px] flex items-center max-[1450px]:flex-col">
+            <div class="bottom_left max-[1450px]:hidden">
+              <img src="./imgs/showcase_main.jpg" alt="" />
+            </div>
+            <div class="bottom_right bg-[#5d68cf] p-[20px] rounded-[4px]">
+              <h1 class="font-[500] text-text_color_white text-[22px]">
+                Кирпич облицовочный M95 Воткинский
+              </h1>
+              <div class="same">
+                <p class="font-[300] text-[14px] text-text_color_white">
+                  Кол-во на поддоне, шт. - 297
+                </p>
+                <p class="font-[300] text-[14px] text-text_color_white">
+                  Формат одинарный
+                </p>
+              </div>
+              <div class="s_links flex items-center gap-[40px]">
+                <p>
+                  <a
+                    class="font-[300] text-[12px] text-text_color_white underline"
+                    href="#"
+                    >бесплатная доставка</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="font-[300] text-[12px] text-text_color_white underline"
+                    href="#"
+                    >в наличии</a
+                  >
+                </p>
+              </div>
+              <h1 class="font-[500] text-[26px] text-text_color_white">
+                4 500 P/
+              </h1>
+              <div class="two_btns flex items-center gap-[40px]">
+                <button class="btn2">Купить в 1 клик</button>
+                <button
+                  class="border border-text_color_white rounded-[4px] py-[8px] px-[19px]"
+                >
+                  <img src="./svgs/white_cart.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- bottom_part ended -->
+
+          <!-- showcase _ last started-->
+          <div class="showcase_last grid grid-cols-4 gap-[20px] mt-[30px] max-[1295px]:grid-cols-2 max-[960px]:grid-cols-1">
+            <!-- icon1 -->
+            <div class="c1 flex items-center gap-[15px]">
+              <img src="./imgs/sh1.png" alt="" />
+              <div class="sh_heading">
+                <p class="font-[400] text-[14px] text-text_color_main">
+                  Доставка и аренда спецтехники
+                </p>
+              </div>
+            </div>
+            <!-- icon2 -->
+            <div class="c1 flex items-center gap-[15px]">
+              <img src="./imgs/sh2.png" alt="" />
+              <div class="sh_heading">
+                <p class="font-[400] text-[14px] text-text_color_main">
+                  Скидки застройщикам и оптовикам
+                </p>
+              </div>
+            </div>
+            <!-- icon3 -->
+            <div class="c1 flex items-center gap-[15px]">
+              <img src="./imgs/sh3.png" alt="" />
+              <div class="sh_heading">
+                <p class="font-[400] text-[14px] text-text_color_main">
+                  Предлагаем лучшую цену
+                </p>
+              </div>
+            </div>
+            <!-- icon4 -->
+            <div class="c1 flex items-center gap-[15px]">
+              <img src="./imgs/sh4.png" alt="" />
+              <div class="sh_heading">
+                <p class="font-[400] text-[14px] text-text_color_main">
+                  Работаем 7 дней в неделю
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- showcase ended -->
+
+    <!-- section:all_cards started -->
+    <section class="all_cards mt-[60px] hidden">
+      <div class="container">
+        <div class="header_with_link flex items-center justify-between">
+          <h1 class="font-[500] text-[36px] text-text_color_main">
+            Спецпредложения
+          </h1>
+          <p>
+            <a
+              class="font-[500] text-[16px] text-color_main underline hover:text-text_color_red"
+              href="#"
+              >Перейти в раздел скидок
+            </a>
+          </p>
+        </div>
+        <!-- all_cards grid started -->
+        <div class="all_cards_grid grid grid-cols-5 gap-[30px] mt-[30px]">
+          <!-- card1 -->
+          <div class="card1">
+            <div class="card_top flex items-center justify-between">
+              <img src="./imgs/card_component.png" alt="" />
+              <img src="./imgs/small_start.svg" alt="" />
+            </div>
+            <img src="./imgs/card_img.png" alt="" />
+            <h4 class="font-[500] text-[16px] text-text_color_main">
+              Кирпич облицовочный M95 Воткинский
+            </h4>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Кол-во на поддоне, шт. - 297
+            </p>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Формат одинарный
+            </p>
+            <div class="two_links flex items-center justify-around">
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >бесплатная доставка</a
+                >
+              </p>
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >в наличии</a
+                >
+              </p>
+            </div>
+            <div class="price flex items-center gap-[20px]">
+              <h2 class="font-[500] text-[20px] text-text_color_main">4 500</h2>
+              <p class="font-[400] text-[10px] text-text_color_main">p/ шт</p>
+            </div>
+            <div class="two_btns flex items-center gap-[30px]">
+              <button class="btn1 btn">Купить в 1 клик</button>
+              <button class="border border-color_main rounded-[4px] p-[14px]">
+                <img src="./svgs/tick.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- card2 -->
+          <div class="card1">
+            <div class="card_top flex items-center justify-between">
+              <img src="./imgs/card_component.png" alt="" />
+              <img src="./imgs/small_start.svg" alt="" />
+            </div>
+            <img src="./imgs/card_img.png" alt="" />
+            <h4 class="font-[500] text-[16px] text-text_color_main">
+              Кирпич облицовочный M95 Воткинский
+            </h4>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Кол-во на поддоне, шт. - 297
+            </p>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Формат одинарный
+            </p>
+            <div class="two_links flex items-center justify-around">
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >бесплатная доставка</a
+                >
+              </p>
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >в наличии</a
+                >
+              </p>
+            </div>
+            <div class="price flex items-center gap-[20px]">
+              <h2 class="font-[500] text-[20px] text-text_color_main">4 500</h2>
+              <p class="font-[400] text-[10px] text-text_color_main">p/ шт</p>
+            </div>
+            <div class="two_btns flex items-center gap-[30px]">
+              <button class="btn1 btn">Купить в 1 клик</button>
+              <button class="border border-color_main rounded-[4px] p-[14px]">
+                <img src="./svgs/tick.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- card3 -->
+          <div class="card1">
+            <div class="card_top flex items-center justify-between">
+              <img src="./imgs/card_component.png" alt="" />
+              <img src="./imgs/small_start.svg" alt="" />
+            </div>
+            <img src="./imgs/card_img.png" alt="" />
+            <h4 class="font-[500] text-[16px] text-text_color_main">
+              Кирпич облицовочный M95 Воткинский
+            </h4>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Кол-во на поддоне, шт. - 297
+            </p>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Формат одинарный
+            </p>
+            <div class="two_links flex items-center justify-around">
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >бесплатная доставка</a
+                >
+              </p>
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >в наличии</a
+                >
+              </p>
+            </div>
+            <div class="price flex items-center gap-[20px]">
+              <h2 class="font-[500] text-[20px] text-text_color_main">4 500</h2>
+              <p class="font-[400] text-[10px] text-text_color_main">p/ шт</p>
+            </div>
+            <div class="two_btns flex items-center gap-[30px]">
+              <button class="btn1 btn">Купить в 1 клик</button>
+              <button class="border border-color_main rounded-[4px] p-[14px]">
+                <img src="./svgs/tick.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- card4 -->
+          <div class="card1">
+            <div class="card_top flex items-center justify-between">
+              <img src="./imgs/card_component.png" alt="" />
+              <img src="./imgs/small_start.svg" alt="" />
+            </div>
+            <img src="./imgs/card_img.png" alt="" />
+            <h4 class="font-[500] text-[16px] text-text_color_main">
+              Кирпич облицовочный M95 Воткинский
+            </h4>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Кол-во на поддоне, шт. - 297
+            </p>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Формат одинарный
+            </p>
+            <div class="two_links flex items-center justify-around">
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >бесплатная доставка</a
+                >
+              </p>
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >в наличии</a
+                >
+              </p>
+            </div>
+            <div class="price flex items-center gap-[20px]">
+              <h2 class="font-[500] text-[20px] text-text_color_main">4 500</h2>
+              <p class="font-[400] text-[10px] text-text_color_main">p/ шт</p>
+            </div>
+            <div class="two_btns flex items-center gap-[30px]">
+              <button class="btn1 btn">Купить в 1 клик</button>
+              <button class="border border-color_main rounded-[4px] p-[14px]">
+                <img src="./svgs/tick.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- card5 -->
+          <div class="card1">
+            <div class="card_top flex items-center justify-between">
+              <img src="./imgs/card_component.png" alt="" />
+              <img src="./imgs/small_start.svg" alt="" />
+            </div>
+            <img src="./imgs/card_img.png" alt="" />
+            <h4 class="font-[500] text-[16px] text-text_color_main">
+              Кирпич облицовочный M95 Воткинский
+            </h4>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Кол-во на поддоне, шт. - 297
+            </p>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Формат одинарный
+            </p>
+            <div class="two_links flex items-center justify-around">
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >бесплатная доставка</a
+                >
+              </p>
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >в наличии</a
+                >
+              </p>
+            </div>
+            <div class="price flex items-center gap-[20px]">
+              <h2 class="font-[500] text-[20px] text-text_color_main">4 500</h2>
+              <p class="font-[400] text-[10px] text-text_color_main">p/ шт</p>
+            </div>
+            <div class="two_btns flex items-center gap-[30px]">
+              <button class="btn1 btn">Купить в 1 клик</button>
+              <button class="border border-color_main rounded-[4px] p-[14px]">
+                <img src="./svgs/tick.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- card6 -->
+          <div class="card1">
+            <div class="card_top flex items-center justify-between">
+              <img src="./imgs/card_component.png" alt="" />
+              <img src="./imgs/small_start.svg" alt="" />
+            </div>
+            <img src="./imgs/card_img.png" alt="" />
+            <h4 class="font-[500] text-[16px] text-text_color_main">
+              Кирпич облицовочный M95 Воткинский
+            </h4>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Кол-во на поддоне, шт. - 297
+            </p>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Формат одинарный
+            </p>
+            <div class="two_links flex items-center justify-around">
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >бесплатная доставка</a
+                >
+              </p>
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >в наличии</a
+                >
+              </p>
+            </div>
+            <div class="price flex items-center gap-[20px]">
+              <h2 class="font-[500] text-[20px] text-text_color_main">4 500</h2>
+              <p class="font-[400] text-[10px] text-text_color_main">p/ шт</p>
+            </div>
+            <div class="two_btns flex items-center gap-[30px]">
+              <button class="btn1 btn">Купить в 1 клик</button>
+              <button class="border border-color_main rounded-[4px] p-[14px]">
+                <img src="./svgs/tick.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- card7 -->
+          <div class="card1">
+            <div class="card_top flex items-center justify-between">
+              <img src="./imgs/card_component.png" alt="" />
+              <img src="./imgs/small_start.svg" alt="" />
+            </div>
+            <img src="./imgs/card_img.png" alt="" />
+            <h4 class="font-[500] text-[16px] text-text_color_main">
+              Кирпич облицовочный M95 Воткинский
+            </h4>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Кол-во на поддоне, шт. - 297
+            </p>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Формат одинарный
+            </p>
+            <div class="two_links flex items-center justify-around">
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >бесплатная доставка</a
+                >
+              </p>
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >в наличии</a
+                >
+              </p>
+            </div>
+            <div class="price flex items-center gap-[20px]">
+              <h2 class="font-[500] text-[20px] text-text_color_main">4 500</h2>
+              <p class="font-[400] text-[10px] text-text_color_main">p/ шт</p>
+            </div>
+            <div class="two_btns flex items-center gap-[30px]">
+              <button class="btn1 btn">Купить в 1 клик</button>
+              <button class="border border-color_main rounded-[4px] p-[14px]">
+                <img src="./svgs/tick.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- card8 -->
+          <div class="card1">
+            <div class="card_top flex items-center justify-between">
+              <img src="./imgs/card_component.png" alt="" />
+              <img src="./imgs/small_start.svg" alt="" />
+            </div>
+            <img src="./imgs/card_img.png" alt="" />
+            <h4 class="font-[500] text-[16px] text-text_color_main">
+              Кирпич облицовочный M95 Воткинский
+            </h4>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Кол-во на поддоне, шт. - 297
+            </p>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Формат одинарный
+            </p>
+            <div class="two_links flex items-center justify-around">
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >бесплатная доставка</a
+                >
+              </p>
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >в наличии</a
+                >
+              </p>
+            </div>
+            <div class="price flex items-center gap-[20px]">
+              <h2 class="font-[500] text-[20px] text-text_color_main">4 500</h2>
+              <p class="font-[400] text-[10px] text-text_color_main">p/ шт</p>
+            </div>
+            <div class="two_btns flex items-center gap-[30px]">
+              <button class="btn1 btn">Купить в 1 клик</button>
+              <button class="border border-color_main rounded-[4px] p-[14px]">
+                <img src="./svgs/tick.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- card9 -->
+          <div class="card1">
+            <div class="card_top flex items-center justify-between">
+              <img src="./imgs/card_component.png" alt="" />
+              <img src="./imgs/small_start.svg" alt="" />
+            </div>
+            <img src="./imgs/card_img.png" alt="" />
+            <h4 class="font-[500] text-[16px] text-text_color_main">
+              Кирпич облицовочный M95 Воткинский
+            </h4>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Кол-во на поддоне, шт. - 297
+            </p>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Формат одинарный
+            </p>
+            <div class="two_links flex items-center justify-around">
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >бесплатная доставка</a
+                >
+              </p>
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >в наличии</a
+                >
+              </p>
+            </div>
+            <div class="price flex items-center gap-[20px]">
+              <h2 class="font-[500] text-[20px] text-text_color_main">4 500</h2>
+              <p class="font-[400] text-[10px] text-text_color_main">p/ шт</p>
+            </div>
+            <div class="two_btns flex items-center gap-[30px]">
+              <button class="btn1 btn">Купить в 1 клик</button>
+              <button class="border border-color_main rounded-[4px] p-[14px]">
+                <img src="./svgs/tick.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- card10 -->
+          <div class="card1">
+            <div class="card_top flex items-center justify-between">
+              <img src="./imgs/card_component.png" alt="" />
+              <img src="./imgs/small_start.svg" alt="" />
+            </div>
+            <img src="./imgs/card_img.png" alt="" />
+            <h4 class="font-[500] text-[16px] text-text_color_main">
+              Кирпич облицовочный M95 Воткинский
+            </h4>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Кол-во на поддоне, шт. - 297
+            </p>
+            <p class="font-[300] text-[14px] text-text_color_second">
+              Формат одинарный
+            </p>
+            <div class="two_links flex items-center justify-around">
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >бесплатная доставка</a
+                >
+              </p>
+              <p>
+                <a
+                  class="font-[300] text-[12px] text-text_color_gray underline hover:text-[#219653]"
+                  href="#"
+                  >в наличии</a
+                >
+              </p>
+            </div>
+            <div class="price flex items-center gap-[20px]">
+              <h2 class="font-[500] text-[20px] text-text_color_main">4 500</h2>
+              <p class="font-[400] text-[10px] text-text_color_main">p/ шт</p>
+            </div>
+            <div class="two_btns flex items-center gap-[30px]">
+              <button class="btn1 btn">Купить в 1 клик</button>
+              <button class="border border-color_main rounded-[4px] p-[14px]">
+                <img src="./svgs/tick.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section:all_cards ended -->
+
+    <!-- section:project started -->
+    <section class="project mt-[80px] hidden">
+      <div class="container">
+        <!-- top_header started -->
+        <div class="header_with_link flex items-center justify-between">
+          <h1 class="font-[500] text-[36px] text-text_color_main">
+            Проект из наших стройматериалов
+          </h1>
+          <p>
+            <a
+              class="font-[500] text-[16px] text-color_main underline hover:text-text_color_red"
+              href="#"
+              >Смотреть все проекты
+            </a>
+          </p>
+        </div>
+        <!-- top_header ended -->
+
+        <!-- cards started -->
+        <div class="cardss grid grid-cols-3 gap-[40px] mt-[30px]">
+          <!-- card1 -->
+          <img src="./imgs/project1.png" alt="" />
+          <!-- card2 -->
+          <div class="card2 p-[30px] flex flex-col gap-[15px] items-start">
+            <h1 class="font-[500] text-[22px] text-text_color_white">
+              Аэропорт Казань
+            </h1>
+            <p
+              class="font-[400] text-[16px] text-text_color_white leading-[144%]"
+            >
+              Комплекс услуг по доставке товара на  Ваш строительный объект.
+              Комплекс  услуг по доставке.
+            </p>
+            <button
+              class="btn3 font-[400] text-[14px] text-text_color_white rounded-[12px] border border-[#fff] p-[10px]"
+            >
+              Перейти к объекту
+            </button>
+          </div>
+          <!-- card3 -->
+          <img src="./imgs/project2.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- section:project ended -->
+
+    <!-- section:additional_service started -->
+    <section class="additional_service mt-[80px] hidden">
+      <div class="container">
+        <!-- top_header started -->
+        <div class="header_with_link flex items-center justify-between">
+          <h1 class="font-[500] text-[36px] text-text_color_main">
+            Дополнительные услуги
+          </h1>
+          <p>
+            <a
+              class="font-[500] text-[16px] text-color_main underline hover:text-text_color_red"
+              href="#"
+              >Смотреть все проекты
+            </a>
+          </p>
+        </div>
+        <!-- top_header ended -->
+
+        <!-- services -->
+        <div class="services mt-[30px] grid grid-cols-4 gap-[30px]">
+          <!-- service1 -->
+          <div class="service1">
+            <div
+              class="service_icon w-[78px] h-[78px] bg-[#9FA6EE] bg-opacity-[0.1] rounded-[100%] flex items-center justify-center"
+            >
+              <img src="./svgs/ser1.svg" alt="" />
+            </div>
+
+            <div class="service_heading mt-[20px]">
+              <h2 class="font-[700] text-[18px] text-text_color_main">
+                Доставка стройматериалов
+              </h2>
+              <p class="font-[400] text-[14px] text-text_color_second">
+                Комплекс услуг по доставке товара на Ваш строительный объект
+              </p>
+            </div>
+          </div>
+          <!-- service2 -->
+          <div class="service1 serv_blue">
+            <div
+              class="service_icon w-[78px] h-[78px] bg-[#9FA6EE] bg-opacity-[0.1] rounded-[100%] flex items-center justify-center"
+            >
+              <img src="./svgs/ser2.svg" alt="" />
+            </div>
+
+            <div class="service_heading mt-[20px]">
+              <h2 class="font-[700] text-[18px] text-text_color_white">
+                Шеф-монтаж
+              </h2>
+              <p class="font-[400] text-[14px] text-text_color_white">
+                Демонстрация секретов успешного строительства
+              </p>
+            </div>
+          </div>
+          <!-- service3 -->
+          <div class="service1">
+            <div
+              class="service_icon w-[78px] h-[78px] bg-[#9FA6EE] bg-opacity-[0.1] rounded-[100%] flex items-center justify-center"
+            >
+              <img src="./svgs/ser3.svg" alt="" />
+            </div>
+
+            <div class="service_heading mt-[20px]">
+              <h2 class="font-[700] text-[18px] text-text_color_main">
+                Кладка кирпича
+              </h2>
+              <p class="font-[400] text-[14px] text-text_color_second">
+                Кладка кирпича и блоков Pototherm
+              </p>
+            </div>
+          </div>
+          <!-- service4 -->
+          <div class="service1">
+            <div
+              class="service_icon w-[78px] h-[78px] bg-[#9FA6EE] bg-opacity-[0.1] rounded-[100%] flex items-center justify-center"
+            >
+              <img src="./svgs/ser4.svg" alt="" />
+            </div>
+
+            <div class="service_heading mt-[20px]">
+              <h2 class="font-[700] text-[18px] text-text_color_main">
+                Сезонное хранение
+              </h2>
+              <p class="font-[400] text-[14px] text-text_color_second">
+                Хранение стройматериалов приобретенных зимой
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section:additional_service ended -->
+
+    <!-- section:showrooom started -->
+    <section class="showroom mt-[80px] hidden">
+      <div class="container">
+        <!-- top_header started -->
+        <div class="header_with_link flex items-center justify-between">
+          <h1 class="font-[500] text-[36px] text-text_color_main">
+            Наш шоурум
+          </h1>
+          <p>
+            <a
+              class="font-[500] text-[16px] text-color_main underline hover:text-text_color_red"
+              href="#"
+              >Перейти в контакты
+            </a>
+          </p>
+        </div>
+        <!-- top_header ended -->
+
+        <!-- showroom cards started -->
+        <div class="showrooms grid grid-cols-3 gap-[40px] mt-[40px]">
+          <img src="./imgs/show1.png" alt="" />
+          <img src="./imgs/show2.png" alt="" />
+          <img src="./imgs/show3.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- section:showroom ended -->
+
+    <!-- section:main_icons started -->
+    <section class="main_icons mt-[80px] hidden">
+      <div class="container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./imgs/ic1.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./imgs/ic2.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./imgs/ic3.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./imgs/ic4.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./imgs/ic5.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./imgs/ic6.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./imgs/ic7.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./imgs/ic1.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./imgs/ic2.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./imgs/ic3.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./imgs/ic4.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./imgs/ic5.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./imgs/ic6.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./imgs/ic7.png" alt="" /></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+    <!-- section:main_icons ended -->
+
+    <!-- footer started -->
+    <footer class="footer mt-[80px] bg-[#f7f7f7] p-[20px] hidden">
+      <div class="container">
+        <!-- footer top started-->
+        <div class="footer_top grid grid-cols-4 gap-[40px] border-b pb-[20px]">
+          <!-- f1 -->
+          <div class="f1 flex flex-col gap-[10px]">
+            <h3 class="font-[500] text-[24px] text-text_color_main">
+              Организация
+            </h3>
+
+            <p>
+              <a class="font-[400] text-[16px] text-text_color_main" href="#"
+                >О компании</a
+              >
+            </p>
+            <p>
+              <a class="font-[400] text-[16px] text-text_color_main" href="#"
+                >Услуги</a
+              >
+            </p>
+            <p>
+              <a class="font-[400] text-[16px] text-text_color_main" href="#"
+                >Статьи</a
+              >
+            </p>
+            <p>
+              <a class="font-[400] text-[16px] text-text_color_main" href="#">
+                Вакансии</a
+              >
+            </p>
+          </div>
+          <!-- f2 -->
+          <div class="f1 flex flex-col gap-[10px]">
+            <h3 class="font-[500] text-[24px] text-text_color_main">
+              Как купить
+            </h3>
+
+            <p>
+              <a class="font-[400] text-[16px] text-text_color_main" href="#"
+                >О компании</a
+              >
+            </p>
+            <p>
+              <a class="font-[400] text-[16px] text-text_color_main" href="#"
+                >Услуги</a
+              >
+            </p>
+            <p>
+              <a class="font-[400] text-[16px] text-text_color_main" href="#"
+                >Статьи</a
+              >
+            </p>
+            <p>
+              <a class="font-[400] text-[16px] text-text_color_main" href="#">
+                Вакансии</a
+              >
+            </p>
+          </div>
+          <!-- f3 -->
+          <div class="f1 flex flex-col gap-[10px]">
+            <h3 class="font-[500] text-[24px] text-text_color_main">
+              Мы на связи
+            </h3>
+
+            <p>
+              <a class="font-[400] text-[16px] text-text_color_main" href="#"
+                >8 (843) 203-93-43</a
+              >
+            </p>
+            <p>
+              <a class="font-[400] text-[16px] text-text_color_main" href="#"
+                >info@td-germes.ru</a
+              >
+            </p>
+            <div class="footer_icons_last flex items-center gap-[30px]">
+              <img src="./svgs/f1.svg" alt="" />
+              <img src="./svgs/f2.svg" alt="" />
+            </div>
+          </div>
+          <!-- f4 -->
+          <div class="f1 flex flex-col gap-[10px]">
+            <h3 class="font-[500] text-[24px] text-text_color_main">
+              Наш адрес
+            </h3>
+
+            <p>
+              <a class="font-[400] text-[16px] text-text_color_main" href="#"
+                >Казань</a
+              >
+            </p>
+            <p>
+              <a
+                class="font-[400] text-[16px] text-text_color_main underline"
+                href="#"
+                >ул.Сары Садыковой 30, 2 этаж</a
+              >
+            </p>
+            <p>
+              <a class="font-[400] text-[16px] text-text_color_main" href="#"
+                >Пн - Пт c 8:30 до 17:30
+              </a>
+            </p>
+            <p>
+              <a class="font-[400] text-[16px] text-text_color_main" href="#">
+                Суббота с 9:00 до 14:00</a
+              >
+            </p>
+          </div>
+        </div>
+        <!-- footer top ended -->
+
+        <!-- footer bottom started -->
+        <div class="footer_bottom mt-[20px] flex items-center gap-[40px]">
+          <p class="font-[400] text-[14px] text-text_color_second">
+            © 2012 — 2020, ООО «ТК «Гермес» Сайт www.td-germes.ru носит
+            исключительно информационный характер и ни при каких условиях не
+            является публичной офертой. Для получения информации о стоимости
+            товаров, пожалуйста, обращайтесь в отдел продаж компании Гермес.
+          </p>
+          <div class="f_iconss flex items-center gap-[20px]">
+            <img src="./svgs/visa.svg" alt="" />
+
+            <img src="./svgs/mastercard.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        slidesPerView: 7,
+        spaceBetween: 30,
+        breakpoints: {
+          600: {
+            slidesPerView: 1,
+            spaceBetween: 5,
+          },
+          1024: {
+            slidesPerView: 7,
+            spaceBetween: 20,
+          },
+        },
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

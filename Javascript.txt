@@ -1,0 +1,34 @@
+Javascript
+
+javascript has several string methods :
+
+str.length()- With using this method, we can get the length of string . 
+
+str.charAt(0) - this method returns the value of the string's letter in the given index .
+
+charCodeAt() - returns the unicode of the character in the ASCII table .
+
+str.slice(start,end) - extracts the  string with index.  
+
+str.substring() is similar  to slice()
+
+str.toUppercase - converts strings characters to uppercase .
+
+str.toLowercase - converts strings characters to lowercase .
+
+
+concat - concat helps with adding two strings to one .
+
+str.trim()- this method removes whitespace from the start and the end of the string .
+
+str.replace("the str we want to replace " , " to the one we want to replace with"). 
+
+str.split(" ") - split the string in each whitespace, and add to an array .
+
+
+
+
+
+  
+ 
+

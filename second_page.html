@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- header started -->
+    <header class="header p-[20px]">
+      <div class="container flex items-center justify-between">
+        <img src="./imgs/header_icon.png" alt="" />
+        <div class="header_links flex items-center gap-[40px]">
+          <p>
+            <a class="font-[400] text-[18px] text-text_color_second" href="#"
+              >Услуги</a
+            >
+          </p>
+          <p>
+            <a class="font-[400] text-[18px] text-text_color_second" href="#"
+              >Доставка</a
+            >
+          </p>
+          <p>
+            <a class="font-[400] text-[18px] text-text_color_second" href="#"
+              >Оплата</a
+            >
+          </p>
+          <p>
+            <a class="font-[400] text-[18px] text-text_color_second" href="#"
+              >Проекты</a
+            >
+          </p>
+        </div>
+
+        <div class="header_icons flex items-center gap-[40px]">
+          <img src="./svgs/star.svg" alt="" />
+          <img src="./svgs/cart.svg" alt="" />
+          <div class="phone_num">
+            <p>
+              <a
+                class="text-[400] text-[24px] text-text_color_main"
+                href="tel:8 (843) 203-93-43"
+                >8 (843) 203-93-43</a
+              >
+            </p>
+            <p>
+              <a
+                class="text-[400] text-[16px] text-color_main underline"
+                href="#"
+                >заказать обратный звонок</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header ended -->
+
+    <!-- showcase started -->
+    <section class="showcase mt-[50px]">
+      <div class="container flex gap-[40px]">
+        <!-- catalog started -->
+        <div class="catalog">
+          <div
+            class="catalog_top flex items-center gap-[20px] rounded-[4px] bg-color_main py-[9px] pr-[160px] pl-[60px]"
+          >
+            <img src="./svgs/catalog.svg" alt="" />
+            <p class="font-[400] text-[18px] text-text_color_white">Каталог</p>
+          </div>
+        </div>
+        <!-- catalog ended -->
+
+        <!-- showcase_right started -->
+        <div class="showcase_right">
+          <!-- top_links part started -->
+          <div class="top_part flex items-center gap-[50px]">
+            <h1 class="font-[500] text-[18px] text-text_color_red">Акции</h1>
+            <div class="search flex items-center justify-around">
+              <input
+                class="outline-none text-text_color_gray"
+                type="search"
+                placeholder="Введите название товара"
+              />
+              <img src="./svgs/searh.svg" alt="" />
+            </div>
+            <div class="two_links flex items-center gap-[40px]">
+              <p>
+                <a
+                  class="font-[500] text-[18px] text-text_color_second"
+                  href="#"
+                  >о компании</a
+                >
+              </p>
+              <p>
+                <a
+                  class="font-[500] text-[18px] text-text_color_second"
+                  href="#"
+                  >КОнтакты</a
+                >
+              </p>
+            </div>
+            <button class="btn1">Оптовый заказ</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- showcase ended -->
+
+
+    <!-- main section started -->
+     <section class="main_section">
+        <div class="container">
+           <h1 class="font-[500] text-[30px] text-text_color_main">Кирпич полнотелый (рядовой)</h1>
+           <div class="main_section_left">
+            <div class="kirpich">
+
+            </div>
+
+           </div>
+        
+        </div>
+     </section>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        slidesPerView: 7,
+        spaceBetween: 30,
+        breakpoints: {
+          600: {
+            slidesPerView: 1,
+            spaceBetween: 5,
+          },
+          1024: {
+            slidesPerView: 7,
+            spaceBetween: 20,
+          },
+        },
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

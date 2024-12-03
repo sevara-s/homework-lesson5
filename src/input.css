@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+@media (min-width: 1450px) {
+  .container {
+    width: 1250px;
+    margin: 0 auto;
+  }
+}
+.catalog_bottom {
+  box-shadow: 0 1px 10px 0 rgba(208, 208, 208, 0.25);
+}
+.search {
+  border: 1px solid rgba(109, 109, 109, 0.7);
+  border-radius: 6px;
+  padding: 10px;
+}
+.btn1 {
+  border-radius: 6px;
+  background: #5661cb;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  padding: 10px 35px;
+  transition: 0.8s;
+}
+.btn1:hover {
+  transform: scale(0.8);
+}
+.btn2 {
+  border-radius: 4px;
+  background: white;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #272727;
+  padding: 10px 35px;
+  transition: 0.8s;
+}
+.btn2:hover {
+  transform: scale(0.8);
+}
+.card1 {
+  border: 0.7px solid rgba(134, 134, 134, 0.3);
+  border-radius: 4px;
+  background: #fff;
+  padding: 10px;
+}
+.btn {
+  padding: 5px;
+  width: auto;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.card2 {
+  backdrop-filter: blur(4px);
+  background: rgba(86, 97, 203, 0.9);
+  border-radius: 12px;
+  /* width: 433px;
+  height: 264px; */
+}
+.btn3 {
+  transition: 0.8s;
+}
+.btn3:hover {
+  transform: scale(0.8);
+}
+.service1 {
+  box-shadow: 0 1px 20px 0 rgba(208, 208, 208, 0.4);
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px 10px 15px 20px;
+}
+.serv_blue {
+  box-shadow: 0 1px 20px 0 rgba(208, 208, 208, 0.4);
+  background: #5661cb;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ .swiper-button-prev ,.swiper-button-next{
+  color: black !important;
+ }
+ @media(max-width:1235px){
+  .header_links{
+    position: fixed;
+    left:-100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5661cb;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+  }
+  .header_links p a{
+    color: white;
+  }
+  .check1:checked ~ .header_links{
+    left: 0;
+  }
+
+
+ }
